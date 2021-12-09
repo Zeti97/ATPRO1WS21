@@ -6,7 +6,9 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Students!");
+            Person myPerson = new Person();
+            Console.WriteLine("Hello Student!");
+            Console.WriteLine(myPerson.ToString());
         }
     }
 }
