@@ -7,6 +7,8 @@ namespace HelloGit
         static void Main(string[] args)
         {
             Person myPerson = new Person();
+            myPerson.Birthdate = new DateTime();
+
             Console.WriteLine("Hello World!");
             Console.WriteLine(myPerson.ToString());
         }
